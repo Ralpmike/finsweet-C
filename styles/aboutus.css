@@ -1,0 +1,101 @@
+body {
+          margin: 0;
+          padding: 0;
+          font-family: "Poppins", sans-serif;
+          color: rgb(25, 33, 37);
+          list-style-type: none;
+      }
+      
+      .nav-link {
+          color: #333;
+          font-weight: bold;
+      }
+      
+      .nav-link:hover {
+          color: #f39c12;
+      }
+      
+      section {
+          padding: 3.125rem 0;
+      }
+      
+      h2 {
+          font-size: 2rem;
+          font-weight: bold;
+          color: #000;
+      }
+      
+      .btn-warning {
+          background-color: #f39c12;
+          border: none;
+          padding: 0.625rem 1.25rem;
+          font-size: 1.125rem;
+          font-weight: bold;
+          color: #fff;
+      }
+      
+      footer {
+          background-color: #222;
+          color: #fff;
+          text-align: center;
+          padding: 1.25rem 0;
+      }
+      
+
+      .team{
+        width: 18.125rem;
+        height: 31.3125rem;
+        border-radius: 1.25rem;
+      }
+
+      .user {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+      }
+
+      .sect1 {
+        font-size: 4rem;
+        font-weight: 600;
+      }
+
+      .features h1 {
+        font-size: 2.25rem;
+        font-weight: 600;
+        color: rgba(245, 138, 7, 1);
+      }
+
+      .h2 {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+
+      .heading21 {
+        font-size: 2.25rem;
+        font-weight: 600;
+      }
+
+      .fw {
+        font-weight: 500;
+        font-size: 1.125rem;
+      }
+      .fs, li {
+        font-weight: 500;
+        font-size: 1rem;
+      }
+
+      button {
+        border-radius: 50%;
+      }
+
+      .sect-6 {
+        background-color: rgba(220, 234, 245, 1);
+      }
+      .sect-7{
+        background-color: rgba(6, 50, 85, 1);
+      }
+      .blog {
+        background-color: #fff;
+        border-radius: 20px;
+      }
+      
