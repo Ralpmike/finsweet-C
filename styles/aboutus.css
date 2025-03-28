@@ -1,0 +1,192 @@
+body {
+          margin: 0;
+          padding: 0;
+          font-family: "Poppins", sans-serif;
+          color: rgb(25, 33, 37);
+          list-style-type: none;
+      }
+      
+      a {text-decoration: none;}
+
+      .nav-link {
+          color: #394149;
+          font-weight: bold;
+      }
+      .nav-link:hover {
+          color: #f39c12;
+      }
+      
+      section {
+          padding: 3.125rem 0;
+      }
+      
+      .btn-clone {
+        background-color: rgba(245, 138, 7, 0.1);
+        color: #f58a07;
+      }
+      .btn-clone:hover {
+        background-color: #f58a07;
+        color: #ffffff;
+      }
+      .btn-warning {
+          background-color: #f58a07;
+          border: none;
+          padding: 0.625rem 1.25rem;
+          font-size: 1.125rem;
+          font-weight: bold;
+          color: #ffffff;
+      }
+
+      .ha {
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 4.5rem;
+      }
+      @media screen and (max-width: 1020px) {
+        .ha {
+          font-size: 3rem;
+          line-height: 3rem;
+        }
+      }
+      .hb1 {
+        font-size: 2.25rem;
+        font-weight: 600;
+        line-height: 2.75rem;
+      }
+      .hb2 {
+        font-size: 2.25rem;
+        font-weight: 700;
+      }
+      .hc {
+        font-size: 3rem;
+        font-weight: 600;
+      }
+      .hd {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+      .hd1 {
+        font-size: 1.6rem;
+        font-weight: 700;
+      }
+
+      .pb {
+        font-weight: 500;
+        font-size: 1.125rem;
+      }
+      .ps, li {
+        font-weight: 500;
+        font-size: 1rem;
+      }
+      li {
+        line-height: 2.5rem;
+      }
+      
+      .shape-left {
+        position: absolute;
+        width: 2.5rem;
+        height: 9rem;
+        top: px;
+        bottom: 0;
+        left: 0;
+        background: #f58a07;
+        border-top-right-radius: 1.25rem;
+      }
+      .shape-right {
+        position: absolute;
+        width: 2.5rem;
+        height: 14.1875rem;
+        top: 3.125rem;
+        right: 0;
+        background: #f58a07;
+        border-radius: 1.25rem 0 0 1.25rem;
+      }
+
+      
+      .imagery:hover, .blog:hover {
+        transform: translateY(-1.25rem)
+      }
+
+
+
+      .video {
+        position: relative;
+      }
+      .play-btn-container {
+        position: relative;
+        bottom: 4.1875rem;
+        left: 56%;
+        transform: translate(-50%, -50%);
+      }
+      .play-btn {
+        width: 60px;
+        height: 60px;
+        padding: 3px 0 0 3px;
+        color: #f58a07;
+        background-color: #ffffff;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .play-btn:hover {
+        background-color: #f58a07;
+        color: #ffffff;
+      }
+      .user {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+      }
+
+      .features h1 {
+        font-size: 2.25rem;
+        font-weight: 600;
+        color: rgba(245, 138, 7, 1);
+      }
+
+      .sect-6 {
+        background-color: rgba(220, 234, 245, 1);
+      }
+      .sect-7{
+        background-color: rgba(6, 50, 85, 1);
+        color: #fff;
+        padding: 6.25rem 0 3.125rem 0;
+        position: relative;
+      }
+      .sect-7 a {
+        color: #ffffff;
+      }
+      .blog {
+        background-color: #fff;
+        border-radius: 1.25rem;
+      }
+      
+      .link {
+        color: #f39c12;
+      }
+      
+      .team{
+        height: 31.3125rem;
+        border-radius: 1.25rem;
+      }
+
+      .popup-text {
+        position: absolute;
+        border-radius: 1.25rem;
+        top: 17.5rem;
+        height: 13.75rem;
+        background-color: rgba(0, 0, 0, 0.849);
+        color: #fff;
+        padding: 1.875rem;
+        visibility: hidden;
+      }
+      .popup:hover .popup-text{
+        visibility: visible;
+        opacity: 1;
+      }
+      .popup-text p {
+      line-height: 27.825px;
+      }
+
+      .form {
+        /* padding-left: 200px; */
+      }
