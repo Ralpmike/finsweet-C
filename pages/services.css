@@ -134,6 +134,9 @@ body {
 .blogheading{
     font-size: 1.4375rem;
 }
+.blogheading1 {
+    font-size: 1.5rem;
+}
 
 .blog-content {
     padding: 1.25rem;
