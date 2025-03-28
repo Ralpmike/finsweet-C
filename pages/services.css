@@ -16,12 +16,12 @@ body {
     color: #394149;
 }
 
-.firstheading{
-    color: #1D3444;
-}
 .nav-btn {
     background-color: #F58A071A;
     color:#F58A07 !important;
+}
+.firstheading{
+    color: #1D3444;
 }
 
 .stepbotton,.sub-btn{
@@ -78,9 +78,9 @@ body {
     color: #F58A07;
 }
 
-/* .testimonial-card {
+.testimonial-card {
     padding: 1.875rem;
-} */
+}
 
 .video-btn > button {
     width: 3.1875rem;
@@ -132,8 +132,7 @@ body {
 }
 
 .blogheading{
-    font-size: 23px;
-    font-weight: smaller;
+    font-size: 1.4375rem;
 }
 
 .blog-content {
@@ -174,7 +173,7 @@ footer {
 
 .policy {
     display: flex;
-    gap: 16px;
+    gap: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -249,7 +248,7 @@ footer {
     }
     .last-sec{
         font-size: .625rem!important;
-        text-wrap: wrap;
+       
     }
 
     .video-btn {
@@ -261,6 +260,6 @@ footer {
         font-size: 1rem!important;
     }
     .blog-card{
-        gap: 50px!important;
+        gap: 3.125rem!important;
     }
 }
