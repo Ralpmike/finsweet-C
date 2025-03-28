@@ -27,8 +27,6 @@ body {
 .stepbotton,.sub-btn{
     background-color: #F58A07;
     color: white;
-    width: 171px;
-    height: 54px;
 }
 
 .btn:hover {
@@ -124,13 +122,18 @@ body {
 }
 
 .blog-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 
 .blog-card img {
     width: 100%;
     height: 12.5rem;
     object-fit: cover;
+}
+
+.blogheading{
+    font-size: 23px;
+    font-weight: smaller;
 }
 
 .blog-content {
@@ -167,7 +170,11 @@ footer {
 .last-sec {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+
+.policy {
+    display: flex;
+    gap: 16px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -241,12 +248,19 @@ footer {
         flex-direction: column-reverse;
     }
     .last-sec{
-        font-size: 10px;
+        font-size: .625rem!important;
+        text-wrap: wrap;
     }
 
     .video-btn {
         bottom: 1.25rem;
         left:1.875rem;
-      }
+    }
 
+    .text{
+        font-size: 1rem!important;
+    }
+    .blog-card{
+        gap: 50px!important;
+    }
 }
