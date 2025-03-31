@@ -166,7 +166,7 @@ body {
 
 footer {
     background-color: #063255;
-    background-image: url(./images/Shape\ Left.png), url(./images/Shape\ Right.png);
+    background-image: url(../Serviceimages/Shape\ Left.png), url(../Serviceimages/Shape\ Right.png);
     background-repeat: no-repeat;
     background-position: bottom left, top 1.875rem right;
     background-size: 2.6875rem 6.25rem, 2.6875rem 12.5rem;

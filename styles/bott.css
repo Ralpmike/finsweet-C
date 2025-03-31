@@ -73,8 +73,8 @@ body{
     min-width: fix-content !important;
     background-color: #063255 !important;
     padding-bottom: 50px;
-    background: url(./pages/blog/images/Shape\ Right.png),
-      url(./pages/blog/images/Shape\ Left.png);
+    background: url(../blogimages/Shape\ Right.png),
+      url(../blogimages/Shape\ Left.png);
     background-repeat: no-repeat;
     background-position: top 2.375rem right, bottom left;
     background-size: 2.375rem 12.5rem, 2.375rem 6.5625rem;
