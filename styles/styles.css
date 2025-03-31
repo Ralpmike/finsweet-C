@@ -39,6 +39,132 @@
     text-decoration: none;
 }
 
+.navbar{
+    padding: 2.5rem 5.625rem;
+}
+.nav-link{
+   color: #394139;
+}
+.nav-link {
+    color: #394149 !important;
+    font-weight: 600 !important; /* Set to normal weight */
+    transition: color 0.3s;
+    font-size: 1rem;
+    padding-left: 5.625rem;
+    padding-right: 5.625rem;
+    
+}
+.clone-btn {
+    background-color: #ffebcc !important;
+    color: #ff6600 !important;
+    border-radius: 1.25rem !important;
+    padding: 0.5rem 1.25rem;
+    font-weight: 600;
+    border: none;
+    transition: background 0.3s ease-in-out;
+    
+}
+.clone-btn:hover {
+    background-color: #ffcc99;
+    color: #ff4500;
+}
+.nav-link:hover{
+    color: #F58A07 !important;
+}
+
+.footer {
+    min-width: fix-content !important;
+    background-color: #063255 !important;
+    padding-bottom: 3.125rem;
+    background: url(/images/images/Shape\ Right.png),
+      url(/images/images/Shape\ Left.png);
+    background-repeat: no-repeat;
+    background-position: top 2.375rem right, bottom left;
+    background-size: 2.375rem 12.5rem, 2.375rem 6.5625rem;
+  }
+  /* .card-blog {
+    margin-bottom: 5.625rem;
+  } */
+  .blogimage {
+    border-top-left-radius: 1.125rem !important;
+    border-top-right-radius: 1.125rem !important;
+    height: 12.5rem !important;
+  }
+  .footer-heading {
+    font-size: 2.325rem;
+    color: #ffffff;
+  }
+  .footer-socials > a {
+    gap: 1.25rem;
+  }
+  .footer-socials {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .listing > a, .copy-right > a, .term-policy a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+  }
+  .listing a:hover, .term-policy a:hover, .copy-right > a:hover {
+    text-decoration: underline;
+    color: #F58A07;
+  }
+  .lisst, .term-policy {
+    margin-top: 0.625rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .newsletter {
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  .input-space {
+    font-family: "Inter", sans-serif !important;
+    font-size: 0.875rem !important;
+    color: #9c9c9c !important;
+    width: 18.125rem;
+    height: 2.625rem;
+    border-radius: 3.125rem;
+    border: none;
+    padding-left: 1.25rem;
+  }
+  
+  .last-btn {
+    margin-top: 0.9375rem;
+    width: 8.375rem;
+    height: 2.625rem;
+    background-color: #f58a07;
+    border: none;
+    border-radius: 3.125rem;
+    font-size: 0.9375rem;
+  }
+  .last-btn:hover {
+    background-color: #ffffff;
+    color: #f58a07;
+    transform: translateY(-5px);
+  }
+  .last-section,
+  .term-policy {
+    display: flex;
+  }
+  .last-section {
+    justify-content: space-between;
+  }
+  .term-policy {
+   gap: 1.25rem;
+  }        
+#bold-list-item{
+    text-decoration: none;
+    color: white;
+}
+.footer .container {
+    padding: 2.5rem 5.625rem;
+}
+
+.footer .last-section {
+    padding-top: 1.25rem;
+}
 
 
 <!-- main image and into text  -->
@@ -54,3 +180,4 @@
               <p class="intro-text my-4 fw-semibold">Through True Rich does no end it his mother since real had half every him case in packages enquire we up ecstatic unsatiable saw.</p>
               <a href="#viewpositions" class="btn p-2" style="background-color: #F58A07; border-radius: 25px; color: #FFFFFF; ">View Postions</a>
           </div>
+ a
