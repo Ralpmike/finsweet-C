@@ -12,6 +12,10 @@ body {
     color: #063255;
 }
 
+.nav-link:hover{
+    color: #f58a07 !important;
+}
+
 .nav-items{
     color: #394149;
 }
@@ -24,16 +28,15 @@ body {
     color: #1D3444;
 }
 
-.stepbotton,.sub-btn{
-    background-color: #F58A07;
-    color: white;
-}
-
 .btn:hover {
     background-color: #f7bb71;
     color: white !important;
 }
 
+.stepbotton,.sub-btn{
+    background-color: #F58A07;
+    color: white;
+}
 .section {
     padding: 3.125rem 0;
 }
@@ -57,7 +60,7 @@ body {
 }
 
 .testimonial-image {
-    border-radius: 10px;
+    border-radius: .625rem;
     max-width: 100%;
     height: auto;
 }
@@ -88,7 +91,7 @@ body {
     border-radius: 50%;
     border: none;
     background-color: #ffffff;
-    padding: 4px 0px 0px 6px;
+    padding: .25rem 0rem 0rem .375rem;
     color: #f58a07;
   }
   .video-btn > button:hover {
@@ -97,7 +100,7 @@ body {
   }
   .video-btn > span {
     font-size: 1.0625rem;
-    padding-left: 10px;
+    padding-left: .625rem;
   }
   .video-img {
     position: relative;
@@ -110,7 +113,8 @@ body {
 
 .blog-section {
     background-color: #e0ebf2;
-    padding: 3.125rem 0;
+    padding: 50px 0px;
+   
 }
 
 .blog-card {
@@ -119,6 +123,7 @@ body {
     box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
+    margin-bottom: 1.25rem;
 }
 
 .blog-card:hover {
@@ -133,18 +138,16 @@ body {
 
 .blogheading{
     font-size: 1.4375rem;
+    font-weight: bold;
 }
 .blogheading1 {
     font-size: 1.5rem;
 }
 
 .blog-content {
-    padding: 30px;
+    padding: 1.25rem 1.875rem ;
 }
 
-.blog-content h5 {
-    font-weight: bold;
-}
 
 .blog-content p {
     font-size: .875rem;
@@ -184,6 +187,10 @@ footer {
        font-size: 3.125rem !important;
    }
 
+   .nav-item{
+       gap: 0rem !important;
+   }
+
    .testimonial-card h3{
     font-size: 2.1875rem !important;
    }
@@ -221,7 +228,11 @@ footer {
     .video-btn {
         bottom: .625rem;
         left:1.25rem;
-      }
+    }
+    .blog-content {
+        padding: .625rem .625rem;
+       
+    }
 }
 
 
@@ -262,7 +273,5 @@ footer {
     .text{
         font-size: 1rem!important;
     }
-    .blog-card{
-        gap: 3.125rem!important;
-    }
+    
 }
