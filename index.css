@@ -1,13 +1,17 @@
+.navbar{
+    padding: 2.5rem 5.625rem;
+}
+.nav-link{
+   color: #394139;
+}
 .nav-link {
     color: #394149 !important;
     font-weight: 600 !important; /* Set to normal weight */
     transition: color 0.3s;
     font-size: 1rem;
-    padding-left: 1.25rem;
+    padding-left: 5.625rem;
+    padding-right: 5.625rem;
     
-}
-.nav-link:hover {
-    color: #000 !important;
 }
 .clone-btn {
     background-color: #ffebcc !important;
@@ -23,8 +27,11 @@
     background-color: #ffcc99;
     color: #ff4500;
 }
+.nav-link:hover{
+    color: #F58A07 !important;
+}
 .hero-section {
-    background: url('../images/Virtual-Team-Building\ 1.png') no-repeat center center/cover;
+    background: url('images/Virtual-Team-Building\ 1.png') no-repeat center center/cover;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -62,18 +69,15 @@
     padding-top: 0.625rem;
 }
 .sector-section {
-    padding: 3.75rem 0;
+    padding: 2.5rem 5.625rem;
     position: relative;
 }
 .top-right-image {
     position: absolute;
     top: 0.625rem;
-    right: 1.25rem;
-    width: 5rem;
+    right: 4.6875rem;
+    width: 80px;
     height: auto;
-}
-.card img {
-    border-radius: 0.625rem;
 }
 .section-padding {
     padding: 0 10rem 3.125rem 10rem;
@@ -89,8 +93,8 @@
 }
 .card {
     border: none;
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    border-radius: 1.25rem;
 }
 .card:hover {
     transform: translateY(-5px);
@@ -100,7 +104,7 @@
     height: auto;
 }
 .experience{
-    padding: 3.125rem 9.375rem;
+    padding: 3.125rem 10.625rem;
 }
 .experiencetext h2 {
     font-weight: bold;
@@ -126,7 +130,7 @@
 }
 .strategy-section {
     padding: 3.125rem 1.25rem;
-    margin: 3.125rem 9.375rem;
+    margin: 3.125rem 10.625rem;
     background-color: #edf7ff;
 }
 .fcategory-buttons .btn {
@@ -196,7 +200,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 50px;
+    padding: 3.125rem;
     color: white;
 }
 .text-container3 h2 {
@@ -223,7 +227,7 @@
     align-items: center;
     justify-content: center;
     max-width: 100%;
-    padding: 3.125rem 4.6875rem;
+    padding: 2.5rem 5.625rem;
 }
 .testimonial-text {
     flex: 1;
@@ -271,7 +275,7 @@
     position: absolute;
     bottom: 0.9375rem;
     left: 0.9375rem;
-    padding: 0.5rem 23.125rem 0.5rem 0.9375rem;
+    padding: 0.5rem 20rem 0.5rem 0.9375rem;
 }
 .blog-section {
     padding: 3.75rem 0;
@@ -301,7 +305,7 @@
     border-top-right-radius: 1.25rem;
 }
 .blog-content {
-    padding: 20px;
+    padding: 1.25rem;
     text-align: left;
     background: white;
     border-bottom-left-radius: 1.25rem;
@@ -337,14 +341,16 @@
   .footer {
     min-width: fix-content !important;
     background-color: #063255 !important;
-    padding-bottom: 50px;
-    background: url(../images/Shape\ Right.png),
-      url(../images/Shape\ Left.png);
+    padding-bottom: 3.125rem;
+    background: url(./images/Shape\ Right.png),
+      url(./images/Shape\ Left.png);
     background-repeat: no-repeat;
     background-position: top 2.375rem right, bottom left;
     background-size: 2.375rem 12.5rem, 2.375rem 6.5625rem;
-    
   }
+  /* .card-blog {
+    margin-bottom: 5.625rem;
+  } */
   .blogimage {
     border-top-left-radius: 1.125rem !important;
     border-top-right-radius: 1.125rem !important;
@@ -368,6 +374,7 @@
   }
   .listing a:hover, .term-policy a:hover, .copy-right > a:hover {
     text-decoration: underline;
+    color: #F58A07;
   }
   .lisst, .term-policy {
     margin-top: 0.625rem;
@@ -411,11 +418,18 @@
     justify-content: space-between;
   }
   .term-policy {
-    gap: 1.25rem;
+   gap: 1.25rem;
   }        
 #bold-list-item{
     text-decoration: none;
     color: white;
+}
+.footer .container {
+    padding: 2.5rem 5.625rem;
+}
+
+.footer .last-section {
+    padding-top: 1.25rem;
 }
 @media (max-width: 768px) {
     html {
@@ -489,4 +503,7 @@
     .body{
         width: 100%;
      }
+     .footer .container {
+        padding: 1.25rem 1.25rem;
+    }
 }
