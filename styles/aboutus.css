@@ -9,7 +9,7 @@ body {
       a {text-decoration: none;}
 
       .nav-link {
-          color: #394149;
+          color: #58697a;
           font-weight: bold;
       }
       .nav-link:hover {
@@ -40,70 +40,72 @@ body {
       .ha {
         font-size: 4rem;
         font-weight: 600;
-        line-height: 4.5rem;
+        color: #1d3444e6;
       }
-      @media screen and (max-width: 1020px) {
+      /* @media screen and (max-width: 1020px) {
         .ha {
           font-size: 3rem;
-          line-height: 3rem;
         }
-      }
+      } */
       .hb1 {
         font-size: 2.25rem;
         font-weight: 600;
-        line-height: 2.75rem;
+        color: #1d3444;
       }
       .hb2 {
         font-size: 2.25rem;
         font-weight: 700;
+        color: #1d3444;
+      }
+      .hb3 {
+        font-size: 2.25rem;
+        font-weight: 600;
+        color: #ffffff;
+      }
+      .hb4 {
+        font-size: 2.8125rem;
+        font-weight: 700;
+        color: #1d3444;
+
       }
       .hc {
         font-size: 3rem;
         font-weight: 600;
+        color: #1d3444;
       }
       .hd {
         font-size: 1.5rem;
         font-weight: 600;
+        color: #1d3444;
       }
       .hd1 {
         font-size: 1.6rem;
         font-weight: 700;
+        color: #1d3444;
+      }
+      .hd2 {
+        color: #063155;
       }
 
       .pb {
         font-weight: 500;
-        font-size: 1.125rem;
+        font-size: 20px;
+        color: rgba(128, 115, 115, 1);
       }
       .ps, li {
         font-weight: 500;
-        font-size: 1rem;
+        font-size: 18px;
+        color: rgba(128, 115, 115, 1);
       }
       li {
         line-height: 2.5rem;
       }
-      
-      .shape-left {
-        position: absolute;
-        width: 2.5rem;
-        height: 9rem;
-        top: px;
-        bottom: 0;
-        left: 0;
-        background: #f58a07;
-        border-top-right-radius: 1.25rem;
-      }
-      .shape-right {
-        position: absolute;
-        width: 2.5rem;
-        height: 14.1875rem;
-        top: 3.125rem;
-        right: 0;
-        background: #f58a07;
-        border-radius: 1.25rem 0 0 1.25rem;
-      }
 
       
-      .imagery:hover, .blog:hover {
+      .body {
+        padding: 1.875rem;
+      }
+      .blog:hover {
         transform: translateY(-1.25rem)
       }
 
@@ -143,18 +145,87 @@ body {
         color: rgba(245, 138, 7, 1);
       }
 
+      .header-image, .sq-image {
+        position: relative;
+      }
+      .circle {
+        position: absolute;
+        top: 0px;
+        right: -60px;
+      }
+      .sq {
+        position: absolute;
+        color: rgba(245, 138, 7, 1);
+        width: 200px;
+        height: 200px;
+        top: 0;
+        right: 200px;
+      }
+      .circle-container {
+        position: relative;
+        bottom: 67px;
+      }
       .sect-6 {
         background-color: rgba(220, 234, 245, 1);
       }
-      .sect-7{
-        background-color: rgba(6, 50, 85, 1);
-        color: #fff;
-        padding: 6.25rem 0 3.125rem 0;
-        position: relative;
-      }
-      .sect-7 a {
+
+
+      .footer {
+        background-color: #063255 !important;
         color: #ffffff;
+        padding-bottom: 50px;
+        background: url(../images/Shape\ Right.png), url(../images/Shape\ Left.png);
+        background-repeat: no-repeat;
+        background-position: top 2.375rem right, bottom left;
+        background-size: 2.375rem 12.5rem, 2.375rem 6.5625rem;
       }
+
+      footer li, a {
+        color: #ffffff;
+        list-style-type: none;
+      }
+      .list {
+        margin-top: 0px;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .input-space {
+        font-family: "Inter", sans-serif !important;
+        font-size: 0.875rem !important;
+        color: #9c9c9c !important;
+        width: 18.125rem;
+        height: 2.625rem;
+        border-radius: 3.125rem;
+        border: none;
+        padding-left: 1.25rem;
+      }
+      
+      .last-btn {
+        margin-top: 0.9375rem;
+        width: 8.375rem;
+        height: 2.625rem;
+        color: #ffffff;
+        background-color: #f58a07;
+        border: none;
+        border-radius: 3.125rem;
+        font-size: 0.9375rem;
+      }
+      .last-btn:hover {
+        background-color: #ffffff;
+        color: #f58a07;
+      }
+      .last-section,
+      .term-policy {
+        display: flex;
+      }
+      .last-section {
+        justify-content: space-between;
+      }
+      .term-policy {
+       gap: 1.25rem;
+      }        
+
+
       .blog {
         background-color: #fff;
         border-radius: 1.25rem;
